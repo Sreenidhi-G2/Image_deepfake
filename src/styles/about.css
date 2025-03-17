@@ -1,0 +1,67 @@
+/* about.css */
+
+/* General container styling */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Title styling */
+  .about-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  
+  /* Content styling */
+  .about-content {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    color: #34495e;
+  }
+  
+  /* Text styling */
+  .about-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Highlighted text */
+  .highlight {
+    color: #3498db;
+    font-weight: 600;
+  }
+  
+  /* LinkedIn link styling */
+  .linkedin-link {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
+  }
+  
+  .linkedin-link:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(52, 152, 219, 0.3);
+  }

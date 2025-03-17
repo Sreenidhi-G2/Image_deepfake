@@ -1,0 +1,85 @@
+.image-uploader {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .image-uploader h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .file-input-container {
+    margin: 24px 0;
+  }
+  
+  .file-input {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+  
+  .file-input-label {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #16c79a;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .file-input-label:hover {
+    background-color: #13a884;
+  }
+  
+  .file-name {
+    margin-left: 12px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .preview-container {
+    margin: 24px 0;
+    text-align: center;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin: 12px 0;
+    font-size: 0.9rem;
+  }
+  
+  .upload-button {
+    background-color: #1a1a2e;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .upload-button:hover:not(:disabled) {
+    background-color: #16213e;
+  }
+  
+  .upload-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,76 @@
+.disclaimer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .disclaimer-popup {
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .disclaimer-popup h2 {
+    color: #1a1a2e;
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+  }
+  
+  .disclaimer-content {
+    margin: 24px 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .disclaimer-content p strong {
+    color: #e74c3c;
+  }
+  
+  .disclaimer-content ul {
+    margin: 12px 0;
+    padding-left: 24px;
+  }
+  
+  .disclaimer-content li {
+    margin-bottom: 8px;
+  }
+  
+  .disclaimer-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+  }
+  
+  .accept-button {
+    background-color: #1a1a2e;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .accept-button:hover {
+    background-color: #16213e;
+  }
+  
+  @media (max-width: 768px) {
+    .disclaimer-popup {
+      padding: 16px;
+    }
+  }
